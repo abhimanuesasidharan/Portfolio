@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Mulish:wght@400;500;700&family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    border:none;
+    scroll-behavior: smooth;
+    font-family:'poppins',sans-serif;
+    text-decoration: none;
+}
+body{
+    background:#212529;
+}
+.container{
+    background:#212529;
+}
+#intro{
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.bi-github,.bi-instagram,.bi-twitter,.bi-linkedin{
+    color:black;
+}
+.social-link :hover{
+    color:rgb(17, 170, 204);
+}
+.download-btn :hover{
+    color:rgb(17, 170, 204);
+}
+#element{
+    color:rgb(95, 98, 99);
+}
+#profile{
+    border-radius: 50px;
+}
+.bi-arrow-down{
+    color: aqua;
+    position: fixed;
+}
+#skills i{
+    color:rgb(186, 202, 205);
+    padding:.5rem;
+    background: transparent;
+    transition: .3s ease;
+    border-radius: 50px;
+}
+#skills i:hover{
+    color:rgb(17, 170, 204);
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgb(17, 170, 204);
+}
+@media only screen and (max-width: 600px) {
+   #intro{
+    margin-top:1rem;
+   }
+  }
+
+
+
