@@ -51,6 +51,13 @@ body{
     cursor: pointer;
     box-shadow: 0 0 1rem rgb(17, 170, 204);
 }
+#footer p a{
+    color:rgb(186, 202, 205);
+    text-decoration: none;
+    font-size: small;
+}
+
+
 @media only screen and (max-width: 600px) {
    #intro{
     margin-top:1rem;
