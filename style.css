@@ -57,6 +57,9 @@ body{
     text-decoration: none;
     font-size: small;
 }
+#navbarNav :hover{
+    color:rgb(17, 170, 204);
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -66,6 +69,7 @@ body{
    #landing{
     margin-top: 0.5rem !important;
    }
+
   }
 
 
